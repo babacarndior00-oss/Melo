@@ -14,8 +14,8 @@ client = OpenAI(
 )
 
 # --- 2. INTERFACE GRAPHIQUE ---
-st.set_page_config(page_title="Chatbot Scolaire", page_icon="🤖")
-st.title("🤖 Mon Assistant IA (Version Groq)")
+st.set_page_config(page_title="Melo AI", page_icon="🤖")
+st.title("Melo AI")
 
 # --- 3. GESTION DE LA MÉMOIRE ---
 # On crée une "boîte" dans la mémoire de Streamlit pour stocker l'historique de la conversation
