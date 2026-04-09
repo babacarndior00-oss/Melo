@@ -15,7 +15,7 @@ client = OpenAI(
 
 # --- 2. INTERFACE GRAPHIQUE ---
 st.set_page_config(page_title="Melo AI", page_icon="🤖")
-st.title("Melo AI")
+st.markdown("<h1 style='text-align: center;'> Melo AI</h1>", unsafe_allow_html=True)
 
 # --- 3. GESTION DE LA MÉMOIRE ---
 # On crée une "boîte" dans la mémoire de Streamlit pour stocker l'historique de la conversation
